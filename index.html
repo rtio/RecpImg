@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="stylesheet" href="css/metro-bootstrap.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/pbar.css">
+		<script src="js/jquery/jquery.min.js"></script>
+		<script src="js/jquery/jquery.widget.min.js"></script>
+		<script src="js/metro/metro.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+	<body class="metro">
+		<div class="container">
+			<h2 id="__form__">RecPhoto</h2>
+	        <div class="example">
+	            <form>
+	                <fieldset>
+	                    <legend>Recuperar Foto</legend>
+	                    <label>Selecione o arquivo</label>
+				        <div class="input-control file" data-role="input-control">
+				            <input type="file">
+				            <button class="btn-file"></button>				            
+				        </div>
+				        <div class="input-control">
+				        	<input type="submit" id="submit"value="Submit">
+				        </div>
+				        <br>
+				        <!-- Progress Bar -->
+				        <div id="noTrespassingOuterBarG">
+							<div id="noTrespassingFrontBarG" class="noTrespassingAnimationG">
+							<div class="noTrespassingBarLineG"></div>
+							<div class="noTrespassingBarLineG"></div>
+							<div class="noTrespassingBarLineG"></div>
+							<div class="noTrespassingBarLineG"></div>
+							<div class="noTrespassingBarLineG"></div>
+							<div class="noTrespassingBarLineG"></div>
+							</div>
+						</div>
+						<!-- End Progress Bar -->
+						<a class="image-button primary" id="downimg"style="display:none;" href="download.php?arquivo=imagens_down/imgs.zip">
+                    		Download
+                    		<i class="icon-download-2 bg-lightBlue"></i>
+                		</a>
+	                </fieldset>
+	            </form>
+	         </div>
+     	</div>
+	</body>
+</html>
